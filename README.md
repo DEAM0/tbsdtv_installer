@@ -1,7 +1,7 @@
 # tbsdtv_installer
 
 # How to install
-git clone https://github.com/DEAM0/tbsdtv_installer/
-cd tbsdtv_installer
-chmox +x tbsdriver.sh
-./tbsdriver.sh
+<code>git clone https://github.com/DEAM0/tbsdtv_installer/</code><br>
+<code>cd tbsdtv_installer</code><br>
+<code>chmox +x tbsdriver.sh</code><br>
+<code>./tbsdriver.sh</code>
