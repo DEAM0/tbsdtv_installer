@@ -1,4 +1,4 @@
-# Tbsd Installer with Tvheadend
+# TBSDTV Installer with Tvheadend
 
 # How to install
 <code>sudo apt-get update && sudo apt-get install shc</code><br>
