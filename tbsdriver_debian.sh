@@ -55,7 +55,16 @@ case $i in
    clear
    echo "[+] I am installing the necessary software."
    sleep 2
-   apt-get install sudo make patchutils gcc bzip2 apt-transport-https libproc-processtable-perl linux-headers-$(uname -r) curl tar
+   apt-get install sudo 
+   apt-get install make 
+   apt-get install patchutils 
+   apt-get install gcc 
+   apt-get install bzip2 
+   apt-get install apt-transport-https
+   apt-get install libproc-processtable-perl
+   apt-get install linux-headers-$(uname -r)
+   apt-get install curl 
+   apt-get install tar
    clear
    echo "[+] I am preparing for installation."
    sleep 2
