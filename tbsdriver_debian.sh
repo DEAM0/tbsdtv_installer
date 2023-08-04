@@ -27,6 +27,7 @@ case $i in
    apt-get install linux-headers-$(uname -r) 
    apt-get install curl
    apt-get install tar
+   apt-get install gnupg
    clear
    echo "[+] I am preparing for installation."
    sleep 2
@@ -65,6 +66,7 @@ case $i in
    apt-get install linux-headers-$(uname -r)
    apt-get install curl 
    apt-get install tar
+   apt-get install gnupg
    clear
    echo "[+] I am preparing for installation."
    sleep 2
