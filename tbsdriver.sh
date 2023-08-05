@@ -29,8 +29,9 @@ case $os in
 	2) clear
 	   echo "[+] You have chosen to install Debian"
 	   sleep 2
-	   echo "[+] I am downloading the installation package for ubuntu."
+	   echo "[+] I am downloading the installation package for debian."
 	   sleep 2
+           cd tvsbdtv_installer
 	   chmod +x tbsdriver_debian.sh
 	   ./tbsdriver_debian.sh
 	;;
