@@ -9,12 +9,9 @@ echo -e "    Ubuntu 22.04"
 echo -e "[+] Support me: https://sk.liberapay.com/GuardianChat"
 echo -e ""
 echo -e "1) Ubuntu"
-echo -e "2) Debian"
-echo -e "3) CentOS"
-echo -e "4) Exit"
 echo -e ""
 echo -e ""
-echo -e "Choose option[1-4]:"
+echo -e "Choose option[1]:"
 read os
 case $os in
     1) clear
@@ -25,16 +22,5 @@ case $os in
 	   cd tvsbdtv_installer
 	   chmod +x tbsdriver_ubuntu.sh
 	   ./tbsdriver_ubuntu.sh
-	;;
-	2) clear
-	   echo "[+] You have chosen to install Debian"
-	   sleep 2
-	   echo "[+] I am downloading the installation package for debian."
-	   sleep 2
-           cd tvsbdtv_installer
-	   chmod +x tbsdriver_debian.sh
-	   ./tbsdriver_debian.sh
-	;;
-	3) clear
-	   echo "Not supported..."
+	   ;;
   esac
