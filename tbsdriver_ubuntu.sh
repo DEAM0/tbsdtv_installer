@@ -16,11 +16,10 @@ case $i in
      sleep 2
      echo "[+] I am installing the tools for building TBSDriver..."
      sleep 2
-     sudo apt-get install 
+     sudo apt-get install make patchutils gcc bzip2 apt-transport-https
      echo "[+] Installation completed"
      sleep 2
      echo "[+] Creating build folder"
-     make patchutils gcc bzip2 apt-transport-https
      sleep 2
      mkdir -p /opt/tbs
      cd /opt/tbs
