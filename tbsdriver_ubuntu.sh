@@ -19,7 +19,8 @@ case $i in
      sudo apt-get install 
      echo "[+] Installation completed"
      sleep 2
-     echo "[+] Creating build folder"make patchutils gcc bzip2 apt-transport-https
+     echo "[+] Creating build folder"
+     make patchutils gcc bzip2 apt-transport-https
      sleep 2
      mkdir -p /opt/tbs
      cd /opt/tbs
